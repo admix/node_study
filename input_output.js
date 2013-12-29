@@ -6,5 +6,5 @@ for(var i = 0;i<file.length;i++){
 		newLines += 1;
 	}
 }
-console.log(file);
+//console.log(file);
 console.log(newLines);
