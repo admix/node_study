@@ -1,7 +1,7 @@
-console.log(process.argv)
+//console.log(process.argv[3])
 var i = 2;
 var sum = 0;
-while(i<5){
+while(process.argv[i] != undefined){
   sum += Number(process.argv[i])
   i++;
 }
