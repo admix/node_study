@@ -1,0 +1,5 @@
+file for testing input and output
+several lines
+
+spaces    and
+some other things
