@@ -1,5 +1,5 @@
 //creating modules
-function ext (err, list){
+module.exports = function (dirName, extName, function (err, list) { //perhaps NOT NEEDED
 	if(err) throw err;
 
 	var result = Array();
@@ -11,4 +11,4 @@ function ext (err, list){
 			j++;
 		}
 	}
-}
+});
