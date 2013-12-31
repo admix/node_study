@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var mymodule = require('modules/module_exercise.js') //loading module to use it in this program
+var mymodule = require('./module_exercise.js') //loading module to use it in this program
 
 //assigning arguments to the values
 var dirName = process.argv[2];
