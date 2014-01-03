@@ -27,3 +27,12 @@ All the additional testing data is mine.
 * 
 
 * 
+
+##How to
+
+* How to install: node.js you can find here [nodejs.org](http://nodejs.org)
+
+* Any package can be installed by using  ```npm install``` - [npm packages](https://npmjs.org)
+
+##Thanks
+My personal thanks to [nodeschool.io](http://nodeschool.io) for a great and easy to use material for learning node.js
