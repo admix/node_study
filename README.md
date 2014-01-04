@@ -22,7 +22,7 @@ All the additional testing data is mine.
 
 * ```http_client``` - getting the get request on the prompted website and outputting the result
 
-* 
+* ```sample_programs``` - sample node.js programs that could be useful in the future projects
 
 * 
 
