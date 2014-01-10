@@ -9,9 +9,10 @@ var mymodule = require('./module_export') //loading module to use it in this pro
 var dirName = process.argv[2];
 var extName = "."+process.argv[3]; //adding '.' to the provided extension
 
-console.log(mymodule.exp(dirName, extName)); //need to add 3rd argument
-
-console.log(mymodule.test("cat")); //testing the modules
+//console.log(dirName);
+//console.log(mymodule.exp(dirName, extName)); //need to add 3rd argument
+mymodule.exp(dirName, extName);
+//console.log(mymodule.Test("kitten")); //testing the modules
 
 
 
