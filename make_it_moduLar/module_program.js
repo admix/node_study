@@ -9,27 +9,18 @@ var mymodule = require('./module_export') //loading module to use it in this pro
 var dirName = process.argv[2];
 var extName = "."+process.argv[3]; //adding '.' to the provided extension
 
-console.log(mymodule.exp(dirName, extName)); //need to add 3rd argument
+//console.log(dirName);
+//console.log(mymodule.exp(dirName, extName)); //need to add 3rd argument
+mymodule(dirName,extName);
+//console.log(mymodule.Test("kitten")); //testing the modules
 
-console.log(mymodule.test("cat")); //testing the modules
+/*//callback example
 
+function doCallback(callback) {
+   callback()
+}
 
-
-
-
-
-/*
-fs.readdir(dirName,function (err, list){ //perhaps NOT NEEDED
-	if(err) throw err;
-
-	var result = Array();
-	var j = 0;
-	for(var i = 0;i<list.length;i++){
-		if (path.extname(list[i]) === extName){ //checking the extension
-			result[j] = list[i];
-			console.log(result[j]); //printing to console "one per line" the filtered files
-			j++;
-		}
-	}
-});
+doCallback(function() {
+   console.log('callback done')
+})
 */
