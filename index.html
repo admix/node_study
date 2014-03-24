@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Product _1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+    <!--<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">-->
+
+    <style type="text/css"> 
+      /* Large Displays */
+      @media (min-width: 980px) {
+        body {
+         padding-top: 60px;
+        }
+        .linediv-l{
+          border-right: 1px white solid; 
+        }
+        .linediv-r {
+          border-left: 1px white solid;
+        }
+      }
+      /* Landscape phones and down */
+      @media (max-width: 480px){ 
+        .copy{
+          padding: 2.5% 10%;
+        }
+        .linediv-l{
+          border-bottom: 1px white solid;
+        }
+        .linediv-r {
+          border-top: 1px white solid;
+        }
+      } 
+
+      /* All form factors */
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading{
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      p.lead{
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p{
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      /* Video pitch and Action */
+      .pitch{
+        padding: 2.5% 0%;
+      }
+      .order{
+        padding: 2% 0%;
+      }
+      .actions{
+        /*background-color: #343434;*/
+        padding: 3% 0%;
+        background-image: url("http://i.imgur.com/eWcmhTD.png");
+      }
+      .video, .thermometer, .order, .social, .statistics {
+        text-align: center;
+
+      }
+      .statistics h3, .statistics p{
+        color: white;
+
+      }
+
+      /* Marketing Copy and Footer */
+      body{
+        background-image: url("http://i.imgur.com/yrNuaco.png");
+      }
+      .copy{
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset{
+        padding: 2.5% 0%;
+      }
+      .footer{
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p{
+        font-size: 11px;
+      }
+      .footer a{
+        color: #ccccff;
+      }
+      .logo{
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".nav li").removeClass("active");//this will remove the active class from  
+                                         //previously active menu item 
+      $('#cont').addClass('active');
+    });
+  </script>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">admix<span class="logo">dev</span></a>
+          <div class="nav-collapse collapse index_p">
+            <ul class="nav">
+              <li><a href="../myBlog/home/index.html">Home</a></li>
+              <li><a href="../myBlog/home/prj566.html">PRJ566</a></li>
+              <li id="cont"><a href="../myBlog/home/contact.html">Contact</a></li>
+              <li><div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                      Projects
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../Games/index.html">Games</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../PizzaProject/index.html">Pizza Project</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../myBlog/home/cplusplus.html">C++ App</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../myBlog/home/mvc4.html">.NET MVC4 App</a></li>
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../nodeApp/index.html">Heroku Apps</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="../testing/index.html">Lighter</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+  </div>
+  <!-- We use row-fluid inside containers to achieve a resizable layout. -->  
+    <div class="container">
+      <div class="row-fluid heading">
+        <div class="span12">
+        <h1>Smart Notes</h1>
+      </div>
+    </div>
+    <div class="row-fluid subheading">
+      <div class="span12">
+        <!-- Special typography from Bootstrap for lead paragraph --> 
+        <p class="lead">Edit all kinds of lists, notes, ... remotely and together! (Collaborative notes)</p>
+      </div>
+    </div>
+    <div class="row-fluid pitch">
+      <div class="span5 offset1 video">
+        <img class="img-polaroid" src="http://i.imgur.com/jIYeHq3.png">
+      </div>
+      
+      <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
+      <div class="span5 actions">
+        <div class="span8 offset2">
+          <div class="statistics">
+            <div class="span4">
+              <!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media queries. -->
+              <div class="linediv-l">
+              <h3>0</h3> <p>backers</p>
+              </div>
+            </div>
+            <div class="span4">
+              <div class="linediv-c">
+                <h3>$0</h3> <p>of $10,000</p>
+              </div>
+            </div>
+            <div class="span4">
+              <div class="linediv-r">
+              <h3>60</h3> <p>days left</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span10 offset1">
+          <!-- Bootstrap progress bar -->
+          <div class="thermometer progress active">
+            <div class="bar bar-success" style="width: 60%;"></div>
+            <div class="bar bar-warning" style="width: 40%;"></div>
+          </div>
+        </div>
+        <div class="span6 offset3 order">
+          <!-- Standard Bootstrap button. -->
+          <button class="btn btn-success btn-large">Preorder</button>
+        </div>
+        <div class="span8 offset2 social">
+          <!-- Social buttons are not included in default Bootstrap. -->
+          <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+          <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Beyond this part the marketing copy begins. -->
+    <div class="row-fluid section1">
+      <div class="span5 offset1 copy copy-right">
+        <p>
+          <span class="logo">"Smart Notes"</span> - an application that will allow people, project teams and even companies to make collaborative notes. It means that everyone who is working on the same list is able to edit it, add some more stuff!!! And you can do it on the go, whenever it is comfortable for you, using any of the devices you have: phone, tablet, computer. Isn't it awesome! You can make buying lists, project plans, mutual goals or whatever you want and then add your friends or family to edit these notes together. For example: team startup ideas...<br/> 
+          It could become an extremely easy and on the same time effective tool for your everyday needs. 
+          
+        </p>
+      </div>
+      <div class="span5 asset">
+        <img class="img-polaroid" src="http://i.imgur.com/iWFSDJE.png">
+      </div>
+    </div>
+
+    <div class="row-fluid section2">
+      <div class="span5 offset1 copy copy-right">
+        <p>
+          All over the place people are seeking connections and how to make things work comfortable for them. How to use the technology around us in the most effective way. Small and ,for the first time not really recognizable, things are the most important once, because we do them everyday, everyhour and will be doing them always!<br/>
+          On a company level, such notes could solve the problem of collaborative work, could help managers and developers always be with up to date information. Will reduce the amount of time they waste on calls, texts, emails. One of the feature will be version control system, that could save the entire note, from the very beginning up to the end.
+        </p>
+      </div>
+      <div class="span5 asset">
+        <img class="img-polaroid" src="http://i.imgur.com/gZB4jnY.png">
+      </div>
+    </div>
+
+    <!-- For the FAQ, JS will be useful (using accordion) -->
+    <div class="row-fluid faq">
+        <div class="span10 offset1">
+          <h3>FAQ</h3>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                What will be the price for the app?
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse">
+                <div class="accordion-inner">
+                The app will be free with limited options. Some extra features for companies mainly will be paid.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                What is the release date of the app?
+                </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                Approximate release date is Spring 2014.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                Who is the audience of this application?
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-body collapse">
+                <div class="accordion-inner">
+                The main audience is the day by day users, who are seeking for easy ways of making notes with friends and family. Companies and corporations will be interested as well, to maintain their projects or arrange team building trips.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    
+    <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
+    <!-- http://creativecommons.org/licenses/ -->
+    <div class="row-fluid footer">
+      <div class="span12">
+        <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0
+        </a>, without all the cruft that would otherwise be put at the bottom of the page.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
