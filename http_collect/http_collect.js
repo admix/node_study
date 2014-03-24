@@ -1,4 +1,4 @@
-//program to work with the client side
+//program collecting info from user
 var fs = require('fs'),
     bl = require('bl'),
     http = require('http'), //http core module

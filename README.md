@@ -22,9 +22,19 @@ All the additional testing data is mine.
 
 * ```http_client``` - getting the get request on the prompted website and outputting the result
 
+* ```http_collect``` - collecting info from the provided URL GET request
+
+* ```juggling_async``` - provide 3 URLs and put them in order
+
+* ```time_server``` - program listens on TCP connection, write current date for each connection
+
+* ```http_file_server``` - HTTP server that serves the same file it receives with the request
+
+* ```http_uppercaserer``` - HTTP server that receives only POST requests,translates lowercase to uppercase 
+ 
 * ```sample_programs``` - sample node.js programs that could be useful in the future projects
 
-* 
+*  
 
 * 
 
