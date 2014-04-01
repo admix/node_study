@@ -32,7 +32,7 @@ http.createServer(function(req, res) {
 
   var pathname = url.parse(req.url).pathname;
   console.log("Request for " + pathname + " received.");
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, {'Content-Type': 'application/json'});
   res.write("../README.md");
   res.end();
 
