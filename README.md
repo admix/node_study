@@ -31,12 +31,9 @@ All the additional testing data is mine.
 * ```http_file_server``` - HTTP server that serves the same file it receives with the request
 
 * ```http_uppercaserer``` - HTTP server that receives only POST requests,translates lowercase to uppercase 
+* ```http_JSON_API_server``` - output provided date data to the JSON file
  
 * ```sample_programs``` - sample node.js programs that could be useful in the future projects
-
-*  
-
-* 
 
 ##How to
 
