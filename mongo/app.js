@@ -1,6 +1,9 @@
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('mongodb').MongoClient,
+    ReadPreference = require('mongodb').ReadPreference; //specifying read preferences. From where to read data by default
 
-MongoClient.connect("mongodb://localhost:27018/course,localhost:27017,localhost:27019", function(err, db) {
+MongoClient.connect("mongodb://localhost:27017,
+                     localhost:27018,
+                     localhost:27019/course?readPreference=secondary", function(err, db) {
     if (err) throw err;
 
     var documentNumber = 0;
